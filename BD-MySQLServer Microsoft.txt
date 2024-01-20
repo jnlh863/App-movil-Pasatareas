@@ -1,0 +1,3 @@
+Viene incluido en el backend el nombre del servidor, contraseña,... etc
+en el backend. En el archivo connection.js
+

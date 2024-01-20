@@ -1,0 +1,42 @@
+@api = http://localhost:60879/usuarios
+
+GET {{api}}
+
+###
+POST {{api}}/add
+Content-Type: application/json
+
+{
+    "usuario": "Elwey56", 
+    "correo": "josue@gmail.com", 
+    "password": "sxaknak12"
+
+}
+
+###
+DELETE {{api}}/Elwey
+
+###
+GET {{api}}/Jahir Nicolás López
+
+
+###
+POST {{api}}/verificacion
+Content-Type: application/json
+
+{
+    "user": "Facundo", 
+    "email": "facundo@gmail.com",
+    "passW": "123456"
+}
+
+
+
+###
+PUT {{api}}/foto
+Content-Type: application/json
+
+{
+    "correo": "aldo@gmail.com",
+    "urlimg": "AQUI"
+}
